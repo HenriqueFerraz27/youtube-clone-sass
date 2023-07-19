@@ -1,3 +1,84 @@
+.container {
+  max-width: 90%;
+  margin: auto;
+}
 
+.avatar {
+  width: var(--unit-16x);
+  height: var(--unit-16x);
+  border-radius: 50%;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--unit-8x) 0;
+}
+.main-header h1 a img {
+  height: var(--unit-12x);
+}
+.main-header__search {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--unit-8x);
+  width: 40vw;
+}
+.main-header__search button {
+  background-color: var(--black-200);
+}
+.main-header__search button img {
+  height: var(--unit-10x);
+}
+.main-header__search button:hover {
+  background-color: var(--black-100);
+}
+.main-header__search form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid var(--black-100);
+  border-radius: var(--unit-50x);
+  overflow: hidden;
+}
+.main-header__search form input {
+  width: 100%;
+  padding: var(--unit-4x) var(--unit-8x);
+  border: none;
+  background-color: transparent;
+}
+.main-header__search form button {
+  height: 100%;
+  padding: 0 var(--unit-6x);
+  border-left: 1px solid var(--black-100);
+}
+.main-header__search__microphone {
+  flex-shrink: 0;
+  width: var(--unit-20x);
+  height: var(--unit-20x);
+  border-radius: 50%;
+}
+.main-header__actions-profile {
+  display: flex;
+  align-items: center;
+  gap: var(--unit-4x);
+}
+.main-header__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--unit-4x);
+}
+.main-header__actions button {
+  width: var(--unit-20x);
+  height: var(--unit-20x);
+  border-radius: 50%;
+}
+.main-header__actions button img {
+  width: var(--unit-10x);
+}
+.main-header__actions button:hover {
+  background-color: var(--black-200);
+}
 
 /*# sourceMappingURL=custom.css.map */

@@ -7,7 +7,65 @@
     <title>YouTube - Clone - SASS</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <header class="main-header container">
+      <h1>
+        <a href="">
+          <img src="./assets/images/logos/white-youtube.svg" alt="YouTube" />
+        </a>
+      </h1>
+
+      <div class="main-header__search">
+        <form>
+          <input type="text" placeholder="Pesquisar..." />
+          <button type="submit">
+            <img
+              src="./assets/images/icons/light-white-search.svg"
+              alt="Pesquisar"
+            />
+          </button>
+        </form>
+
+        <button class="main-header__search__microphone">
+          <img
+              src="./assets/images/icons/solid-white-microphone.svg"
+              alt="Microfone"
+            />
+        </button>
+      </div>
+
+      <div class="main-header__actions-profile">
+        <div class="main-header__actions">
+          <button>
+            <img
+              src="./assets/images/icons/light-white-conectar.svg"
+              alt="Conectar"
+            />
+          </button>
+
+          <button>
+            <img
+              src="./assets/images/icons/regular-white-bell.svg"
+              alt="Notificações"
+            />
+          </button>
+
+          <button>
+            <img
+              src="./assets/images/icons/light-white-search.svg"
+              alt="Pesquisar"
+            />
+          </button>
+        </div>
+
+        <button>
+          <img
+            class="avatar"
+            src="./assets/images/icons/avatar.png"
+            alt="Perfil"
+          />
+        </button>
+      </div>
+    </header>
 
     <script src="./js/index.js"></script>
   </body>
