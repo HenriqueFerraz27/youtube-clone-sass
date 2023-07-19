@@ -13,7 +13,7 @@
 *:visited {
   margin: 0;
   padding: 0;
-  color: var(--white-2);
+  color: var(--white-200);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -24,7 +24,7 @@
 
 body {
   min-height: 100vh;
-  background-color: var(--black-3);
+  background-color: var(--black-300);
   overflow-x: hidden;
 }
 
