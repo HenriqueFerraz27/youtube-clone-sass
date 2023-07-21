@@ -19,19 +19,7 @@
     font-weight: 500;
   }
 
-  &__description {
-    &__infos {
-      span,
-      strong {
-        font-size: var(--unit-7x);
-      }
-
-      span {
-        opacity: 0.75;
-        transform: translateY(7.5%);
-      }
-    }
-  }
+  @import "./description";
 
   &__channel-actions {
     display: flex;

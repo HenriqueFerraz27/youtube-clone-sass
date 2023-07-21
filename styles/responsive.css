@@ -13,6 +13,9 @@
   .video__comments--mobile {
     display: none;
   }
+  .video__description--desktop {
+    display: flex;
+  }
 }
 @media (max-width: 500px) {
   .video__actions {
