@@ -10,6 +10,9 @@
   .video__channel {
     width: initial;
   }
+  .video__comments--mobile {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .video__actions {

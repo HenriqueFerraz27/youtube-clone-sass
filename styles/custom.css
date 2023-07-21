@@ -227,5 +227,45 @@
 .video__actions--desktop {
   width: 21.12rem;
 }
+.video__comments * {
+  font-size: var(--unit-7x);
+}
+.video__comments__expand {
+  width: 100%;
+  padding: var(--unit-6x);
+  background-color: var(--black-200);
+  border-radius: var(--unit-6x);
+}
+.video__comments__expand header {
+  display: flex;
+  align-items: center;
+  gap: var(--unit-4x);
+  margin-bottom: var(--unit-6x);
+}
+.video__comments__expand header strong {
+  font-weight: 500;
+}
+.video__comments__expand header span {
+  font-size: var(--unit-6x);
+  opacity: 0.75;
+  transform: translateY(7.5%);
+}
+.video__comments__expand__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--unit-4x);
+}
+.video__comments__expand__content img:last-child {
+  height: var(--unit-10x);
+}
+.video__comments__expand__comment {
+  display: flex;
+  gap: var(--unit-6x);
+}
+.video__comments__expand__comment p {
+  display: flex;
+  align-items: center;
+}
 
 /*# sourceMappingURL=custom.css.map */
