@@ -1,3 +1,9 @@
+@media (max-width: 425px) {
+  .video__player.container {
+    max-width: initial;
+  }
+}
+
 @media (min-width: 576px) {
   .main-header {
     margin-bottom: var(--unit-8x);
