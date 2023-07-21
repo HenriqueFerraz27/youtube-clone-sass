@@ -221,6 +221,9 @@
 .video__actions__options {
   width: var(--unit-18x);
 }
+.video__actions--mobile {
+  width: 32.234rem;
+}
 .video__actions--desktop {
   width: 21.12rem;
 }

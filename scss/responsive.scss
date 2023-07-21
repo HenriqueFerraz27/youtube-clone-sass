@@ -16,6 +16,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .video__actions {
+    margin-bottom: var(--unit-8x);
+  }
+}
+
 @media (min-width: 576px) {
   .main-header {
     margin-bottom: var(--unit-8x);
@@ -29,8 +35,14 @@
     }
   }
 
-  .video__actions-scroll--desktop {
-    display: flex;
+  .video {
+    &__actions-scroll--mobile {
+      display: none;
+    }
+
+    &__actions-scroll--desktop {
+      display: flex;
+    }
   }
 }
 

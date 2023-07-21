@@ -11,6 +11,11 @@
     width: initial;
   }
 }
+@media (max-width: 500px) {
+  .video__actions {
+    margin-bottom: var(--unit-8x);
+  }
+}
 @media (min-width: 576px) {
   .main-header {
     margin-bottom: var(--unit-8x);
@@ -19,6 +24,9 @@
     display: flex;
   }
   .main-header__actions button:last-child {
+    display: none;
+  }
+  .video__actions-scroll--mobile {
     display: none;
   }
   .video__actions-scroll--desktop {
