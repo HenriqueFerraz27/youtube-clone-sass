@@ -4,7 +4,6 @@
   }
   .main-header__search {
     display: flex;
-    width: 50vw;
   }
   .main-header__actions button:last-child {
     display: none;

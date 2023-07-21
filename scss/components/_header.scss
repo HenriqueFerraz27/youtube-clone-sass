@@ -1,6 +1,7 @@
 .main-header {
   display: flex;
   justify-content: space-between;
+  gap: var(--unit-8x);
   align-items: center;
   padding: var(--unit-8x) 0;
 
@@ -8,11 +9,17 @@
     height: var(--unit-12x);
   }
 
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__search {
     display: none;
     justify-content: space-between;
     gap: var(--unit-8x);
-    width: 40vw;
+    width: 50vw;
 
     button {
       background-color: var(--black-200);
@@ -70,7 +77,8 @@
 
     button {
       display: flex;
-    align-items: center;
+      justify-content: center;
+      align-items: center;
       width: var(--unit-20x);
       height: var(--unit-20x);
       border-radius: 50%;
