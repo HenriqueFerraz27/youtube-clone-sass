@@ -21,6 +21,9 @@
   .main-header__actions button:last-child {
     display: none;
   }
+  .video__actions-scroll--desktop {
+    display: flex;
+  }
 }
 @media (min-width: 768px) {
   html {

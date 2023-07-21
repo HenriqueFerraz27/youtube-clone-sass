@@ -28,6 +28,10 @@
       display: none;
     }
   }
+
+  .video__actions-scroll--desktop {
+    display: flex;
+  }
 }
 
 @media (min-width: 768px) {

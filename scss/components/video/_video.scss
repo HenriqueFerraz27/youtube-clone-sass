@@ -34,8 +34,12 @@
   }
 
   &__channel-actions {
-    display: flex
+    display: flex;
+    justify-content: space-between;
+    gap: var(--unit-8x)
   }
 
   @import "./channel";
+
+  @import "./actions";
 }
