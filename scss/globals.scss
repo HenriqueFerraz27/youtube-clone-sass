@@ -2,12 +2,7 @@
 
 *,
 *:before,
-*:after,
-*:active,
-*:focus,
-*:focus-within,
-*:hover,
-*:visited {
+*:after {
   margin: 0;
   padding: 0;
   color: var(--white-200);
@@ -17,6 +12,10 @@
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   outline: none;
+}
+
+html {
+  font-size: 87.5%;
 }
 
 body {
@@ -31,9 +30,6 @@ ol {
 }
 
 button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: none;
   cursor: pointer;
   background-color: transparent;

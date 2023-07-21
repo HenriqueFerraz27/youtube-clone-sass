@@ -9,5 +9,15 @@
     display: none;
   }
 }
+@media (min-width: 768px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */
