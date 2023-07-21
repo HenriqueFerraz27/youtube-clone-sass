@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   color: var(--white-200);
+  text-align: initial;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;

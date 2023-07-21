@@ -100,5 +100,22 @@
 .video__player video {
   width: 100%;
 }
+.video__infos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--unit-8x);
+}
+.video__title {
+  font-size: var(--unit-10x);
+  font-weight: 500;
+}
+.video__description__infos span,
+.video__description__infos strong {
+  font-size: var(--unit-7x);
+}
+.video__description__infos span {
+  opacity: 0.75;
+  transform: translateY(7.5%);
+}
 
 /*# sourceMappingURL=custom.css.map */
