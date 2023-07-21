@@ -9,7 +9,7 @@
   }
 
   &__search {
-    display: flex;
+    display: none;
     justify-content: space-between;
     gap: var(--unit-8x);
     width: 40vw;
@@ -69,6 +69,8 @@
     gap: var(--unit-4x);
 
     button {
+      display: flex;
+    align-items: center;
       width: var(--unit-20x);
       height: var(--unit-20x);
       border-radius: 50%;
