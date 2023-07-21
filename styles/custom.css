@@ -117,5 +117,44 @@
   opacity: 0.75;
   transform: translateY(7.5%);
 }
+.video__channel-actions {
+  display: flex;
+}
+.video__channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--unit-6x);
+  width: 100%;
+}
+.video__channel__owner {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--unit-6x);
+}
+.video__channel__owner .avatar {
+  width: var(--unit-20x);
+  height: var(--unit-20x);
+}
+.video__channel__owner div h3 {
+  font-size: var(--unit-8x);
+}
+.video__channel__owner div span {
+  color: var(--gray-100);
+  font-size: var(--unit-6x);
+}
+.video__channel__subscribe {
+  height: var(--unit-18x);
+  padding: 0 var(--unit-8x);
+  color: var(--black-300);
+  font-size: var(--unit-6x);
+  font-weight: 700;
+  border-radius: var(--unit-20x);
+  background-color: var(--white-200);
+  transition: opacity 0.1s;
+}
+.video__channel__subscribe:hover {
+  opacity: 0.75;
+}
 
 /*# sourceMappingURL=custom.css.map */

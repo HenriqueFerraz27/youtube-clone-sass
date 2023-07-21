@@ -5,8 +5,14 @@
 }
 
 @media (min-width: 425px) {
-  .video__description--mobile {
-    display: none;
+  .video {
+    &__description--mobile {
+      display: none;
+    }
+
+    &__channel {
+      width: initial;
+    }
   }
 }
 
