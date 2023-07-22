@@ -4,8 +4,12 @@
   flex-direction: column;
   gap: var(--unit-8x);
 
-  &__player video {
-    width: 100%;
+  &__player {
+    display: flex;
+
+    video {
+      width: 100%;
+    }
   }
 
   &__infos {
@@ -31,7 +35,7 @@
 
   @import "./actions";
 
-  @import "./comments";
+  @import "./comments-mobile";
 
   @import "./description-desktop";
 }
