@@ -1,0 +1,17 @@
+&__description--mobile &__description {
+  &__infos {
+    span,
+    strong {
+      font-size: var(--unit-7x);
+    }
+
+    span {
+      opacity: 0.75;
+      transform: translateY(7.5%);
+    }
+
+    strong {
+      font-weight: 500;
+    }
+  }
+}

@@ -19,7 +19,7 @@
     font-weight: 500;
   }
 
-  @import "./description";
+  @import "./description-mobile";
 
   &__channel-actions {
     display: flex;
@@ -32,4 +32,6 @@
   @import "./actions";
 
   @import "./comments";
+
+  @import "./description-desktop";
 }
