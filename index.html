@@ -216,7 +216,7 @@
 
             <div class="comments__content">
               <header>
-                <div class="comments__content__header">
+                <div class="comments__header">
                   <strong>Comentários</strong>
                   <button>
                     <img
@@ -226,19 +226,19 @@
                   </button>
                 </div>
 
-                <div class="comments__content__sort-by container">
+                <div class="comments__sort-by container">
                   <button>Principais</button>
                   <button>Com marcação de tempo</button>
                   <button>Mais recentes</button>
                 </div>
 
-                <div class="comments__content__warning">
+                <div class="comments__warning">
                   Lembre-se de manter o respeito nos comentários e seguir nossas
                   <span>diretrizes da comunidade</span>
                 </div>
               </header>
 
-              <div class="comments container">
+              <div class="comments__comments container">
                 <div class="comment">
                   <img
                     class="avatar"
@@ -281,7 +281,9 @@
                         </div>
                       </div>
 
-                      <button class="options">•••</button>
+                      <button class="comment__options">
+                        <span> ••• </span>
+                      </button>
                     </div>
 
                     <div class="comment__answers">
@@ -294,43 +296,42 @@
                           />
 
                           <div class="comment__container">
-                            <div class="comment__wrapper">
-                              <div class="comment__wrapper-2">
-                                <div class="comment__content">
-                                  <header>@aurelia7751 • há 3 anos</header>
+                            <div class="comment__wrapper-2">
+                              <div class="comment__content">
+                                <header>@aurelia7751 • há 3 anos</header>
 
-                                  <p>
-                                    Hoje essa música bateu em minha mente
-                                    novamente, Tmj galerinha que sobrevive a
-                                    guerra contra si todos os dias, incluindo
-                                    hoje
-                                  </p>
-                                </div>
-
-                                <div class="comment__feedback">
-                                  <div>
-                                    <button>
-                                      <img
-                                        src="./assets/images/icons/light-white-like.svg"
-                                        alt="Like"
-                                      />
-                                      364
-                                    </button>
-
-                                    <span></span>
-
-                                    <button>
-                                      <img
-                                        src="./assets/images/icons/light-white-dislike.svg"
-                                        alt="Like"
-                                      />
-                                    </button>
-                                  </div>
-                                </div>
+                                <p>
+                                  Hoje essa música bateu em minha mente
+                                  novamente, Tmj galerinha que sobrevive a
+                                  guerra contra si todos os dias, incluindo hoje
+                                </p>
                               </div>
 
-                              <button class="options">•••</button>
+                              <div class="comment__feedback">
+                                <div>
+                                  <button>
+                                    <img
+                                      src="./assets/images/icons/light-white-like.svg"
+                                      alt="Like"
+                                    />
+                                    364
+                                  </button>
+
+                                  <span></span>
+
+                                  <button>
+                                    <img
+                                      src="./assets/images/icons/light-white-dislike.svg"
+                                      alt="Like"
+                                    />
+                                  </button>
+                                </div>
+                              </div>
                             </div>
+
+                            <button class="comment__options">
+                              <span> ••• </span>
+                            </button>
                           </div>
                         </div>
 
@@ -377,7 +378,167 @@
                                 </div>
                               </div>
 
-                              <button class="options">•••</button>
+                              <button class="comment__options">
+                                <span> ••• </span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <button class="comment__answers__expand">
+                        <img
+                          src="./assets/images/icons/solid-blue-arrow-down.svg"
+                          alt="Expandir Respostas"
+                        />
+                        187 respostas
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="comment">
+                  <img
+                    class="avatar"
+                    src="./assets/images/icons/avatar.png"
+                    alt="Perfil"
+                  />
+
+                  <div class="comment__container">
+                    <div class="comment__wrapper">
+                      <div class="comment__wrapper-2">
+                        <div class="comment__content">
+                          <header>@aurelia7751 • há 3 anos</header>
+
+                          <p>
+                            Hoje essa música bateu em minha mente novamente, Tmj
+                            galerinha que sobrevive a guerra contra si todos os
+                            dias, incluindo hoje
+                          </p>
+                        </div>
+
+                        <div class="comment__feedback">
+                          <div>
+                            <button>
+                              <img
+                                src="./assets/images/icons/light-white-like.svg"
+                                alt="Like"
+                              />
+                              364
+                            </button>
+
+                            <span></span>
+
+                            <button>
+                              <img
+                                src="./assets/images/icons/light-white-dislike.svg"
+                                alt="Like"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <button class="comment__options">
+                        <span> ••• </span>
+                      </button>
+                    </div>
+
+                    <div class="comment__answers">
+                      <div class="comment__answers__content">
+                        <div class="comment">
+                          <img
+                            class="avatar"
+                            src="./assets/images/icons/avatar.png"
+                            alt="Perfil"
+                          />
+
+                          <div class="comment__container">
+                            <div class="comment__wrapper-2">
+                              <div class="comment__content">
+                                <header>@aurelia7751 • há 3 anos</header>
+
+                                <p>
+                                  Hoje essa música bateu em minha mente
+                                  novamente, Tmj galerinha que sobrevive a
+                                  guerra contra si todos os dias, incluindo hoje
+                                </p>
+                              </div>
+
+                              <div class="comment__feedback">
+                                <div>
+                                  <button>
+                                    <img
+                                      src="./assets/images/icons/light-white-like.svg"
+                                      alt="Like"
+                                    />
+                                    364
+                                  </button>
+
+                                  <span></span>
+
+                                  <button>
+                                    <img
+                                      src="./assets/images/icons/light-white-dislike.svg"
+                                      alt="Like"
+                                    />
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+
+                            <button class="comment__options">
+                              <span> ••• </span>
+                            </button>
+                          </div>
+                        </div>
+
+                        <div class="comment">
+                          <img
+                            class="avatar"
+                            src="./assets/images/icons/avatar.png"
+                            alt="Perfil"
+                          />
+
+                          <div class="comment__container">
+                            <div class="comment__wrapper">
+                              <div class="comment__wrapper-2">
+                                <div class="comment__content">
+                                  <header>@aurelia7751 • há 3 anos</header>
+
+                                  <p>
+                                    Hoje essa música bateu em minha mente
+                                    novamente, Tmj galerinha que sobrevive a
+                                    guerra contra si todos os dias, incluindo
+                                    hoje
+                                  </p>
+                                </div>
+
+                                <div class="comment__feedback">
+                                  <div>
+                                    <button>
+                                      <img
+                                        src="./assets/images/icons/light-white-like.svg"
+                                        alt="Like"
+                                      />
+                                      364
+                                    </button>
+
+                                    <span></span>
+
+                                    <button>
+                                      <img
+                                        src="./assets/images/icons/light-white-dislike.svg"
+                                        alt="Like"
+                                      />
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <button class="comment__options">
+                                <span> ••• </span>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -436,14 +597,6 @@
             </div>
           </div>
         </div>
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
     </main>
 

@@ -1,0 +1,9 @@
+.main-content {
+  margin-top: var(--unit-8x);
+  height: calc(100vh - 63px - 53.25vw - var(--unit-8x));
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
