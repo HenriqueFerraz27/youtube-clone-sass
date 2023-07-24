@@ -11,7 +11,7 @@
     font-size: var(--unit-7x);
   }
 
-  .video__description {
+  .description {
     &__container {
       height: calc(7rem - var(--unit-15x));
       overflow: hidden;
@@ -58,7 +58,7 @@
   height: initial;
   cursor: initial;
 
-  .video__description {
+  .description {
     &__container {
       height: initial;
       overflow: initial;
