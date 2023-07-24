@@ -2,17 +2,7 @@
   overflow-x: auto;
 
   &::-webkit-scrollbar {
-    height: 1px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: var(--black-200);
-    border-radius: var(--unit-2x);
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: var(--white-200);
-    border-radius: var(--unit-2x);
+    height: 0;
   }
 }
 

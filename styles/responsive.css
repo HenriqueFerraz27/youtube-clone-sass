@@ -4,6 +4,15 @@
   }
 }
 @media (min-width: 425px) {
+  body {
+    overflow-y: scroll;
+  }
+  .main--mobile {
+    display: none;
+  }
+  .main--desktop {
+    display: block;
+  }
   .video__description--mobile {
     display: none;
   }
@@ -15,11 +24,6 @@
   }
   .video__description--desktop {
     display: flex;
-  }
-}
-@media (max-width: 500px) {
-  .video__actions {
-    margin-bottom: var(--unit-8x);
   }
 }
 @media (min-width: 576px) {
@@ -47,6 +51,14 @@
 @media (min-width: 1024px) {
   html {
     font-size: 100%;
+  }
+  .main--desktop {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--unit-8x);
+  }
+  .video__player.container, .video__infos.container {
+    max-width: initial;
   }
 }
 

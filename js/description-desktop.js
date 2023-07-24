@@ -1,8 +1,5 @@
 const description = document.querySelector(".video__description--desktop");
-const descriptionContainer = document.querySelector(
-  "description__container"
-);
-const descriptionLess = document.querySelectorAll("description__less");
+const descriptionLess = document.querySelectorAll(".description__less");
 
 const handleDescriptionActive = () => {
   description.classList.add("video__description--desktop--active");

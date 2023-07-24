@@ -7,6 +7,15 @@
   background-color: var(--black-200);
   cursor: pointer;
 
+  &:hover {
+    background-color: var(--black-100);
+
+    .description__more-less {
+      background-color: var(--black-100);
+      box-shadow: -10px 0px 10px 5px var(--black-100);
+    }
+  }
+
   * {
     font-size: var(--unit-7x);
   }
@@ -57,6 +66,15 @@
 &__description--desktop--active {
   height: initial;
   cursor: initial;
+
+  &:hover {
+    background-color: var(--black-200);
+
+    .description__more-less {
+      background-color: var(--black-200);
+      box-shadow: none;
+    }
+  }
 
   .description {
     &__container {
