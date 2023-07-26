@@ -1,0 +1,30 @@
+.comments {
+  &__expand {
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--unit-4x);
+      overflow-y: scroll;
+
+      img:last-child {
+        height: var(--unit-10x);
+      }
+
+      &::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+      }
+    }
+
+    &__comment {
+      display: flex;
+      gap: var(--unit-6x);
+
+      p {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
