@@ -6,6 +6,7 @@
   background-color: var(--black-200);
   border-radius: var(--unit-6x);
   cursor: pointer;
+  transition: all 0.1s;
 
   &:hover {
     background-color: var(--black-100);
@@ -56,13 +57,15 @@
 
 &__comments--desktop--active {
   cursor: initial;
+  transition: all 0.1s;
+
   &:hover {
     background-color: var(--black-200);
   }
 
   .comments {
     &__header img {
-      transform: rotate(180deg) translateY(- 0.1rem);
+      transform: rotate(180deg) translateY(-0.1rem);
     }
 
     &__comments {

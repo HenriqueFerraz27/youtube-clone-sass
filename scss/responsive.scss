@@ -5,6 +5,10 @@
 }
 
 @media (min-width: 425px) {
+  html {
+    font-size: 100%;
+  }
+
   body {
     overflow-y: scroll;
   }
@@ -18,6 +22,11 @@
   }
 
   .video {
+    &__player {
+      border-radius: var(--unit-6x);
+      overflow: hidden;
+    }
+
     &__description--mobile {
       display: none;
     }
@@ -61,30 +70,24 @@
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 93.75%;
-  }
 }
 
 @media (min-width: 960px) {
 }
 
 @media (min-width: 1024px) {
-  html {
-    font-size: 100%;
+  .container {
+    max-width: 95%;
   }
 
   .main--desktop {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: var(--unit-8x);
+    gap: var(--unit-12x);
   }
 
-  .video {
-    &__player.container,
-    &__infos.container {
-      max-width: initial;
-    }
+  .videos-recommendations--desktop {
+    margin-top: initial;
   }
 }
 

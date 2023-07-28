@@ -23,6 +23,7 @@
 
     button {
       background-color: var(--black-200);
+      transition: all 0.1s;
 
       img {
         height: var(--unit-10x);
@@ -82,6 +83,7 @@
       width: var(--unit-20x);
       height: var(--unit-20x);
       border-radius: 50%;
+      transition: all 0.1s;
 
       img {
         width: var(--unit-10x);

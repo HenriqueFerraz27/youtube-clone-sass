@@ -44,6 +44,7 @@
         gap: var(--unit-4x);
         padding: var(--unit-3x) var(--unit-8x);
         font-size: var(--unit-7x);
+        transition: all 0.1s;
 
         img {
           height: var(--unit-8x);
@@ -91,6 +92,7 @@
       padding: var(--unit-3x) var(--unit-8x);
       color: var(--blue-200);
       border-radius: var(--unit-20x);
+      transition: all 0.1s;
 
       img {
         height: var(--unit-8x);

@@ -36,7 +36,7 @@
     font-weight: 700;
     border-radius: var(--unit-20x);
     background-color: var(--white-200);
-    transition: opacity 0.1s;
+    transition: all 0.1s;
 
     &:hover {
       opacity: 0.75;
