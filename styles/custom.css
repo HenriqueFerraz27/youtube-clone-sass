@@ -119,9 +119,14 @@
 }
 .video__player {
   display: flex;
+  position: relative;
 }
 .video__player video {
   width: 100%;
+}
+.video__controls {
+  position: absolute;
+  bottom: 0;
 }
 .video__infos {
   display: flex;
