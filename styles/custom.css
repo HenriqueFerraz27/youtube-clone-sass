@@ -128,9 +128,11 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  background: linear-gradient(to top, rgba(40, 40, 40, 0.25), transparent);
 }
 .video__controls {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 95%;
   margin: auto;
@@ -200,6 +202,12 @@
 }
 .video__controls__duration, .video__controls__duration * {
   font-size: var(--unit-6x);
+}
+.video__controls__autoplay.video__controls__autoplay--off img:first-child {
+  display: none;
+}
+.video__controls__autoplay:not(.video__controls__autoplay--off) img:last-child {
+  display: none;
 }
 .video__infos {
   display: flex;

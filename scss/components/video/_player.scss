@@ -11,10 +11,12 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  background: linear-gradient(to top, rgba(40, 40, 40, 0.25), transparent);;
 }
 
 &__controls {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 95%;
   margin: auto;
@@ -90,7 +92,7 @@
       width: var(--unit-7x);
       border-radius: 50%;
       background: var(--white-200);
-  }
+    }
   }
 
   &__volume:hover &__volume-range {
@@ -106,5 +108,17 @@
   &__duration,
   &__duration * {
     font-size: var(--unit-6x);
+  }
+
+  &__autoplay.video__controls__autoplay--off {
+    img:first-child {
+      display: none;
+    }
+  }
+
+  &__autoplay:not(.video__controls__autoplay--off) {
+    img:last-child {
+      display: none;
+    }
   }
 }
