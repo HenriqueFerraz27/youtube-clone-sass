@@ -98,4 +98,13 @@
     margin-right: var(--unit-7x);
     transform: scale(1);
   }
+
+  &__duration {
+    padding: 0 var(--unit-7x);
+  }
+
+  &__duration,
+  &__duration * {
+    font-size: var(--unit-6x);
+  }
 }

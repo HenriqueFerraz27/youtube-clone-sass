@@ -129,16 +129,6 @@
   bottom: 0;
   width: 100%;
 }
-.video__timeline {
-  width: 95%;
-  height: 3px;
-  margin: auto;
-  background-color: var(--gray-100);
-  transition: all 0.1s;
-}
-.video__timeline:hover {
-  height: 5px;
-}
 .video__controls {
   display: flex;
   align-items: center;
