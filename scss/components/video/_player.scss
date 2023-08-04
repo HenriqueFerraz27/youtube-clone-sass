@@ -11,7 +11,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(to top, rgba(40, 40, 40, 0.25), transparent);;
+  background: linear-gradient(to top, rgba(40, 40, 40, 0.25), transparent);
 }
 
 &__controls {
@@ -119,6 +119,16 @@
   &__autoplay:not(.video__controls__autoplay--off) {
     img:last-child {
       display: none;
+    }
+  }
+
+  &__captions:not(.video__controls__captions--off) {
+    padding-bottom: calc(var(--unit-7x) - 6px);
+
+    img {
+      padding-bottom: 3px;
+      border-bottom: 3px solid red;
+      box-sizing: initial;
     }
   }
 }

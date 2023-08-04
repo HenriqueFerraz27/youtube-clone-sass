@@ -209,6 +209,14 @@
 .video__controls__autoplay:not(.video__controls__autoplay--off) img:last-child {
   display: none;
 }
+.video__controls__captions:not(.video__controls__captions--off) {
+  padding-bottom: calc(var(--unit-7x) - 6px);
+}
+.video__controls__captions:not(.video__controls__captions--off) img {
+  padding-bottom: 3px;
+  border-bottom: 3px solid red;
+  box-sizing: initial;
+}
 .video__infos {
   display: flex;
   flex-direction: column;
