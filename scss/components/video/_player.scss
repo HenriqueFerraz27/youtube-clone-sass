@@ -7,7 +7,46 @@
   }
 }
 
-&__controls {
+&__timeline-controls {
   position: absolute;
   bottom: 0;
+  width: 100%;
+}
+
+&__controls {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    display: flex;
+    padding: var(--unit-7x);
+
+    span {
+      width: var(--unit-9x);
+      height: var(--unit-9x);
+    }
+
+    img {
+      height: var(--unit-9x);
+    }
+  }
+
+  &__play-pause.video__controls__play-pause--paused {
+    img:first-child {
+      display: none;
+    }
+  }
+
+  &__play-pause:not(.video__controls__play-pause--paused) {
+    img:last-child {
+      display: none;
+    }
+  }
 }

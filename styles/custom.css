@@ -124,9 +124,92 @@
 .video__player video {
   width: 100%;
 }
-.video__controls {
+.video__timeline-controls {
   position: absolute;
   bottom: 0;
+  width: 100%;
+}
+.video__timeline {
+  width: 95%;
+  height: 3px;
+  margin: auto;
+  background-color: var(--gray-100);
+  transition: all 0.1s;
+}
+.video__timeline:hover {
+  height: 5px;
+}
+.video__controls {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+.video__controls > div {
+  display: flex;
+  align-items: center;
+}
+.video__controls button {
+  display: flex;
+  padding: var(--unit-7x);
+}
+.video__controls button span {
+  width: var(--unit-9x);
+  height: var(--unit-9x);
+}
+.video__controls button img {
+  height: var(--unit-9x);
+}
+.video__controls__play-pause.video__controls__play-pause--paused img:first-child {
+  display: none;
+}
+.video__controls__play-pause:not(.video__controls__play-pause--paused) img:last-child {
+  display: none;
+}
+.video__controls__volume {
+  display: flex;
+  align-items: center;
+}
+.video__controls__volume-btn img {
+  display: none;
+}
+.video__controls__volume-btn[data-volume=high] img:first-child {
+  display: flex;
+}
+.video__controls__volume-btn[data-volume=low] img:nth-child(2) {
+  display: flex;
+}
+.video__controls__volume-btn[data-volume=muted] img:last-child {
+  display: flex;
+}
+.video__controls__volume-range {
+  width: 0;
+  height: 3px;
+  transform: scale(0);
+  transition: all 0.1s;
+  background: var(--gray-100);
+  border-radius: 100px;
+  appearance: none;
+  cursor: pointer;
+}
+.video__controls__volume-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: var(--unit-7x);
+  width: var(--unit-7x);
+  border-radius: 50%;
+  background: var(--white-200);
+}
+.video__controls__volume:hover .video__controls__volume-range {
+  width: 50px;
+  margin-right: var(--unit-7x);
+  transform: scale(1);
+}
+.video__controls__duration {
+  padding: 0 var(--unit-7x);
+}
+.video__controls__duration, .video__controls__duration * {
+  font-size: var(--unit-6x);
 }
 .video__infos {
   display: flex;

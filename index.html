@@ -656,12 +656,37 @@
       <section class="video">
         <section class="video__player">
           <video
+            class="video__video"
+            autoplay
+            muted
             src="./assets/videos/Yunk Vino - Leans Pt. 2 (Prod. Volp) [Official Video].mp4"
           ></video>
 
-          <div class="video__controls">
-            <div class="video__timeline">
-              
+          <div class="video__timeline-controls">
+            <div class="video__timeline"></div>
+
+            <div class="video__controls">
+              <div>
+                <button class="video__controls__play-pause">
+                  <img
+                    src="./assets/images/icons/regular-white-pause.svg"
+                    alt="Pausar"
+                  />
+                  <img
+                    src="./assets/images/icons/solid-white-play.svg"
+                    alt="Reproduzir"
+                  />
+                </button>
+
+                <button>
+                  <img
+                    src="./assets/images/icons/solid-white-next.svg"
+                    alt="Próximo"
+                  />
+                </button>
+
+
+              </div>
             </div>
           </div>
         </section>
@@ -2009,5 +2034,8 @@
     <script src="./js/comment.js"></script>
     <script src="./js/comments-mobile.js"></script>
     <script src="./js/comments-desktop.js"></script>
+    <script src="./js/video-player/play-pause.js"></script>
+    <script src="./js/video-player/volume.js"></script>
+    <script src="./js/video-player/duration.js"></script>
   </body>
 </html>
