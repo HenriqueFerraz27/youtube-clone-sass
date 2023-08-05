@@ -27,5 +27,3 @@ videoVolume.addEventListener("volumechange", () => {
   volumeBtn.dataset.volume = volumeLevel
   
 });
-
-console.log(videoVolume.duration / 60);
