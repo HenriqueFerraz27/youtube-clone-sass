@@ -1,4 +1,8 @@
 &__description--mobile .description {
+  span span {
+    opacity: 1;
+  }
+
   * {
     font-size: var(--unit-7x);
   }
@@ -27,7 +31,7 @@
     top: calc(56.25vw + 63px);
     left: 0;
     width: 100%;
-    height: calc(100vh - 56.25vw - 63px);
+    height: calc(100vh - 53.25vw - 63px);
     padding: 0 5%;
     padding-bottom: var(--unit-16x);
     background-color: var(--black-300);
@@ -51,7 +55,7 @@
 
   &__header {
     position: fixed;
-    top: calc(63px + 53.25vw);
+    top: calc(63px + 56.25vw);
     left: 0;
     display: flex;
     justify-content: space-between;

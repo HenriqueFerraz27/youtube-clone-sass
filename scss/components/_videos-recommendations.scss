@@ -12,12 +12,23 @@
     }
 
     &__thumb-button {
+      position: relative;
       display: flex;
     }
 
     &__thumb {
+      width: 100%;
       margin-bottom: var(--unit-6x);
       border-radius: var(--unit-6x);
+    }
+
+    &__thumb-time {
+      position: absolute;
+      bottom: var(--unit-8x);
+      right: var(--unit-4x);
+      padding: var(--unit-2x) var(--unit-3x);
+      background-color: var(--black-300);
+      border-radius: var(--unit-3x);
     }
 
     &__wrapper {
@@ -77,7 +88,7 @@
     gap: var(--unit-2x);
 
     &:hover .compact-video__options,
-    &:hover .compact-video__thumb-button div{
+    &:hover .compact-video__thumb-button div {
       visibility: visible;
     }
 

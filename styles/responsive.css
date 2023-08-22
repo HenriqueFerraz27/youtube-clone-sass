@@ -1,3 +1,11 @@
+@media (min-width: 375px) {
+  .video__controls button {
+    padding: var(--unit-4x) !important;
+  }
+  .video__controls img {
+    height: var(--unit-7x) !important;
+  }
+}
 @media (max-width: 424px) {
   .video__player.container {
     max-width: initial;
@@ -32,6 +40,20 @@
   .video__description--desktop {
     display: flex;
   }
+  .video__controls button {
+    padding: var(--unit-3x) !important;
+  }
+  .video__controls img {
+    height: var(--unit-6x) !important;
+  }
+}
+@media (min-width: 500px) {
+  .video__controls button {
+    padding: var(--unit-4x) !important;
+  }
+  .video__controls img {
+    height: var(--unit-7x) !important;
+  }
 }
 @media (min-width: 576px) {
   .main-header {
@@ -43,11 +65,38 @@
   .main-header__actions button:last-child {
     display: none;
   }
+  .video__controls button {
+    padding: var(--unit-6x) !important;
+  }
+  .video__controls img {
+    height: var(--unit-7x) !important;
+  }
+}
+@media (min-width: 588px) {
+  .video__actions {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 700px) {
+  .video__controls button {
+    padding: var(--unit-7x) !important;
+  }
+  .video__controls img {
+    height: var(--unit-8x) !important;
+  }
   .video__actions-scroll--mobile {
     display: none;
   }
   .video__actions-scroll--desktop {
     display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .video__controls button {
+    padding: var(--unit-8x) !important;
+  }
+  .video__controls img {
+    height: var(--unit-9x) !important;
   }
 }
 @media (min-width: 1024px) {

@@ -1,8 +1,12 @@
 .video {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: var(--unit-8x);
+
+  &__player-full-screen {
+    display: flex;
+    align-items: center;
+  }
 
   @import "./player";
 

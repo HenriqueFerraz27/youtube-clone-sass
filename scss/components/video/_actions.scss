@@ -2,7 +2,17 @@
   overflow-x: auto;
 
   &::-webkit-scrollbar {
-    height: 0;
+    height: 1px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--black-200);
+    border-radius: var(--unit-2x);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--white-200);
+    border-radius: var(--unit-2x);
   }
 }
 
@@ -16,6 +26,7 @@
   align-items: center;
   gap: var(--unit-4x);
   height: var(--unit-18x);
+  margin-bottom: var(--unit-8x);
 
   &__feedback,
   button {
@@ -50,11 +61,16 @@
 
     button {
       border-radius: initial;
+
+      span {
+        font-size: var(--unit-7x);
+        font-weight: 500;
+      }
     }
 
-    span {
-      width: 1px;
-      height: 70%;
+    &__division {
+      min-width: 1px;
+      min-height: 70%;
       background-color: var(--white-200);
     }
   }
